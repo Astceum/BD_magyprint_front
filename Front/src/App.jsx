@@ -43,7 +43,7 @@ function App() {
 
               <Route path="/login" element={<LoginPage />} />
               <Route path="/register" element={<RegisterPage />} />
-
+              <Route path="*" element={<NotFoundPage />} />
 
             <Route element={<ProtectedRoute />}>
               <Route path="/home" element={<HomePage />} />
@@ -59,7 +59,7 @@ function App() {
               <Route path="/post-slider/:id" element={<PostSliderHome />} />
 
               
-              <Route path="*" element={<NotFoundPage />} />
+              
             </Route>
           </Routes>
           <Toaster />

@@ -17,7 +17,7 @@ function Contacto() {
     };
 
     return ( 
-        <div className="container-fluid">
+        <div id='contacto' className="container-fluid">
             <div className="category-fluid">
                 <div className="ubicacion-c">
                     <i className="icono fa-solid fa-location-dot fa-2xl" style={{ color: "#000000" }}></i>
@@ -38,53 +38,54 @@ function Contacto() {
             <div className="grid-inferior-fluid">
                 <div className="formulario">
                     <h2>CUÉNTANOS TU PROYECTO</h2>
-                    <h5>Todos los campos marcados con un asterisco (*) son obligatorios <br />.</h5>
+                    <h5>Todos los campos marcados con un asterisco (*) son obligatorios. <br /></h5>
                     <form id="projectForm" ref={form} onSubmit={sendEmail}>
 
-                        <div className="mb-3">
-                            <label for="nombre" className="form-label">Nombre<span className="text-danger">*</span></label>
-                            <input type="text" className="form-control rounded-4 " id="nombre" name="user_name" required />
-                        </div>
-
-                        <div className="mb-3">
-                            <label for="email" className="form-label">Email<span className="text-danger">*</span></label>
-                            <input type="email" className="form-control rounded-4" id="email" name="user_email" required />
-                        </div>
+                    <div className="mb-3">
+              <label for="nombre" className="form-label">Nombre<span className="text-danger">*</span></label>
+              <input type="text" className="form-control rounded-4 " id="nombre" name="user_name" required />
+            </div>
 
 
-                        <div className="mb-3">
-                            <label for="telefono" className="form-label">Número de Teléfono</label>
-                            <input type="tel" className="form-control rounded-4" id="telefono" name="telefono" />
-                        </div>
+            <div className="mb-3">
+              <label for="email" className="form-label">Email<span className="text-danger">*</span></label>
+              <input type="email" className="form-control rounded-4" id="email" name="user_email" required />
+            </div>
 
-                        <div className="mb-3">
-                            <label for="servicio" className="form-label">Servicio</label>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="Bordado" id="opcion1"
-                                    name="servicio[]" />
-                                <label className="form-check-label" for="opcion1">Bordado</label>
-                            </div>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="Impresión Directa(DTG)" id="opcion2"
-                                    name="servicio[]" />
-                                <label className="form-check-label" for="opcion2">Impresión Directa(DTG)</label>
-                            </div>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="Estampado Vinilo" id="opcion3"
-                                    name="servicio[]" />
-                                <label className="form-check-label" for="opcion3">Estampado Vinilo</label>
-                            </div>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="Estampado DTF" id="opcion4"
-                                    name="servicio[]" />
-                                <label className="form-check-label" for="opcion4">Estampado DTF</label>
-                            </div>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="Impresión Digital" id="opcion5"
-                                    name="servicio[]" />
-                                <label className="form-check-label" for="opcion5">Impresión Digital</label>
-                            </div>
-                        </div>
+
+            <div className="mb-3">
+              <label for="telefono" className="form-label">Número de Teléfono</label>
+              <input type="tel" className="form-control rounded-4" id="telefono" name="telefono" />
+            </div>
+
+            <div className="mb-3">
+              <label for="servicio" className="form-label">Servicio</label>
+              <div className="form-check">
+                <input className="form-check-input" type="checkbox" value="Accesorios" id="opcion1"
+                  name="servicio[]" />
+                <label className="form-check-label" for="opcion1">Accesorios</label>
+              </div>
+              <div className="form-check">
+                <input className="form-check-input" type="checkbox" value="Decoración" id="opcion2"
+                  name="servicio[]" />
+                <label className="form-check-label" for="opcion2">Decoración</label>
+              </div>
+              <div className="form-check">
+                <input className="form-check-input" type="checkbox" value="Papeleria" id="opcion3"
+                  name="servicio[]" />
+                <label className="form-check-label" for="opcion3">Papelería</label>
+              </div>
+              <div className="form-check">
+                <input className="form-check-input" type="checkbox" value="Recipientes" id="opcion4"
+                  name="servicio[]" />
+                <label className="form-check-label" for="opcion4">Recipientes</label>
+              </div>
+              <div className="form-check">
+                <input className="form-check-input" type="checkbox" value="Vestimenta" id="opcion5"
+                  name="servicio[]" />
+                <label className="form-check-label" for="opcion5">Vestimenta</label>
+              </div>
+            </div> 
 
                         <div className="mb-3">
                             <label for="mensaje" className="form-label">Mensaje<span className="text-danger">*</span></label>

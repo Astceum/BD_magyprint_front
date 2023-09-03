@@ -1,6 +1,6 @@
-import img1 from "../imgemp/img/img_1_polera.png"
-import img2 from "../imgemp/img/img_2_poleron.png"
-import img3 from "../imgemp/img/img_3_agenda.png"
+import img1 from "../imgemp/img/Foto.png"
+import img2 from "../imgemp/img/Foto2.png"
+import img3 from "../imgemp/img/Foto3.png"
 import "../css/empresa.css"
 import {PostEmpresa} from "./PostEmpresa";
 import { usePosts } from "../context/CompanyContext";

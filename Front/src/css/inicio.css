@@ -102,3 +102,7 @@ color: #3fa09b;
     height: 15em;
   }
 }
+
+#imagenesJuntas .card-group {
+  gap: 1em;
+}

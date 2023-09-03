@@ -1,0 +1,64 @@
+.catcards #cards {
+    width: 25vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+}
+
+
+#cards h3{
+    font-size: 20px;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+}
+
+#contenido h3 {
+    height: 90px;
+}
+
+
+#cards:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+#cards img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contenido {
+    padding: 15px;
+    text-align: center;
+    
+}
+
+#cards #contenido h5 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+#cards #contenido a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #3fa09b;
+    border: 1px solid #3fa09b;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+
+#contenido a:hover {
+    background: #3fa09b;
+    color: #fff;
+}

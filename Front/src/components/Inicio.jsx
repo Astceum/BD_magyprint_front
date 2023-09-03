@@ -1,7 +1,7 @@
 
-import parati from "../img/para_ti.png"
-import institu from "../img/instituciones.png"
-import empresa from "../img/empresas.png"
+import parati from "../img/Foto.png"
+import institu from "../img/Foto2.png"
+import empresa from "../img/Foto3.png"
 import "../css/inicio.css";
 
 import { PostInicio } from "./PostInicio";

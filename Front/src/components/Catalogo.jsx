@@ -20,7 +20,7 @@ function Catalogo() {
                     </div>
                  </div>
 
-            <div className="nested-menu">
+            {/* <div className="nested-menu">
                 <div className="menu">
                     <div className="buscador">
                         <form>
@@ -55,7 +55,7 @@ function Catalogo() {
                         <a href="/">5</a>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
 </div>
     )
