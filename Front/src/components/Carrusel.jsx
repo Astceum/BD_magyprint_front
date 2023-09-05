@@ -4,7 +4,6 @@ import decoracion from '../img/carousel/decoracion.png'
 import papeleria from '../img/carousel/papeleria.png'
 import recipientes from '../img/carousel/recipientes.png'
 import vestimenta from '../img/carousel/vestimenta.png'
-import todoscat from '../img/carousel/todocat.png'
 import "../css/inicio.css";
 
 
@@ -15,7 +14,7 @@ function Carrusel() {
     <div id="catego">
       <br /><br />
       <div className="container">
-        <h2 className="titulos">Categorías</h2>
+        <h2 className="titulos">Tenemos para ti</h2>
         <div id="carouselExampleIndicators2" className="carousel slide">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>

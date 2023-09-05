@@ -36,13 +36,13 @@ function App() {
               <Route path="/" element={<InicioPage />} />
               <Route path="/empresa" element={<EmpresaPage />} />
               <Route path="/catalogo" element={<CatalogoPage />} />
-              <Route path="/detalle/:id" element={<DetallePage />} />
+              {/* <Route path="/detalle/:id" element={<DetallePage />} /> */}
 
               <Route path="/nosotros" element={<NosotrosPage />} />
               <Route path="/contacto" element={<ContactoPage />} />
 
               <Route path="/login" element={<LoginPage />} />
-              <Route path="/register" element={<RegisterPage />} />
+              <Route path="/register.margarita/8081" element={<RegisterPage />} />
               <Route path="*" element={<NotFoundPage />} />
 
             <Route element={<ProtectedRoute />}>

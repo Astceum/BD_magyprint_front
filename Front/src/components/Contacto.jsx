@@ -38,7 +38,7 @@ function Contacto() {
             <div className="grid-inferior-fluid">
                 <div className="formulario">
                     <h2>CUÉNTANOS TU PROYECTO</h2>
-                    <h5>Todos los campos marcados con un asterisco (*) son obligatorios. <br /></h5>
+                    <h5>Todos los campos marcados con un asterisco (*) son obligatorios <br /></h5>
                     <form id="projectForm" ref={form} onSubmit={sendEmail}>
 
                     <div className="mb-3">
