@@ -10,7 +10,7 @@ function Cards({ post }) {
             <div className=" text-black text-center p-2">
                 <div>
                     <strong>{post.image && (<img src={post.image.url} />)}</strong>
-                    <h2>{post.title}</h2>
+                    <h2 className=" text-3xl font-bold m-3">{post.title}</h2>
                     <h5>{post.description}</h5>
                     <p className="m-4"></p>
                     <div className="bg-[#3fa09b] hover:bg-[#177571] text-white text-sm mb-6 font-bold py-2 px-4  rounded-sm mx-2">
