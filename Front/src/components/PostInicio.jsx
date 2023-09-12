@@ -11,7 +11,7 @@ export function PostInicio() {
 
   const siguiente = () => {
       if (slideshow.current.children.length > 0) {
-        console.log("nextt")
+        
       const primerElemento = slideshow.current.children[0];
       slideshow.current.style.transition = `700ms ease-out all`;
 
@@ -82,16 +82,6 @@ useEffect(() => {
       </div>
             </div>
     
-
-    {/* <div className="carousel-inner">
-          <div className="carousel-item active" data-interval="10000">
-            
-          {posts && (<img src={post.image.url}/>)}
-         
-          </div>
-            
-    </div> */}
-
     <button next onClick={anterior} className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Previous</span>

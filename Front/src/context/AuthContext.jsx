@@ -21,11 +21,11 @@ export const AuthProvider = ({ children }) => { // recibe un elemento hijo (chil
     const signup = async (user) => {
         try {
             const res = await registerRequest(user)
-            console.log(res.data)
+            
             setUser(res.data)
             setIsAutenticated(true)
         } catch (error) {
-            console.log(error.response)
+            
             setErrors(error.response.data);
         }
     };
@@ -33,11 +33,11 @@ export const AuthProvider = ({ children }) => { // recibe un elemento hijo (chil
     const signin = async (user) => {
         try {
             const res = await loginRequest(user)
-            console.log(res)
+            
             setIsAutenticated(true)
             setUser(res.data)
         } catch (error) {
-            console.log(error.response.data)
+            
             if (Array.isArray(error.response.data)) {
                 return setErrors(error.response.data);
             }
@@ -64,10 +64,10 @@ export const AuthProvider = ({ children }) => { // recibe un elemento hijo (chil
     useEffect(() => {
         async function checkLogin() {
             const cookies = Cookies.get()
-            console.log(cookies)
+            
 
             if (!cookies.token) {
-                console.log("111")
+                
                 setIsAutenticated(false)
                 setLoading(false)
                 return setUser(null)
@@ -75,7 +75,7 @@ export const AuthProvider = ({ children }) => { // recibe un elemento hijo (chil
             }
             try {
                 const res = await verifyTokenRequest(cookies.token);
-                console.log(res) // TODO 
+                
                 if (!res.data) {
                     setIsAutenticated(false);
                     setLoading(false)

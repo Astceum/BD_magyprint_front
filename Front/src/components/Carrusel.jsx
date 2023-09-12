@@ -68,31 +68,7 @@ function Carrusel() {
                   </div>
                 </div>
               </div>
-            </div>
-
-            {/* <div className="carousel-item">
-              <div className="cards-wrapper">
-                <div className="card">
-                  <img src={todoscat} className="card-img-top" alt="..." />
-                  <div className="card-body">
-                    <h4 className="card-title titulotarjeta">Todos nuestros productos</h4>
-                  </div>
-                </div>
-                <div className="card d-none d-md-block">
-                  <img src={todoscat} className="card-img-top" alt="..." />
-                  <div className="card-body">
-                    <h4 className="card-title titulotarjeta">Para ti</h4>
-                  </div>
-                </div>
-                <div className="card d-none d-md-block">
-                  <img src={todoscat} className="card-img-top" alt="..." />
-                  <div className="card-body">
-                    <h4 className="card-title titulotarjeta">Para ti</h4>
-
-                  </div>
-                </div>
-              </div>
-            </div> */}
+            </div>           
 
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">

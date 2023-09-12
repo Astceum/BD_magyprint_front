@@ -36,7 +36,7 @@ export const PostsProvider = ({ children }) => {
 
   const getPost = async (id) => {
     const res = await getPostRequest(id)
-    console.log(res.data)
+    /* console.log(res.data) */
     return res.data;
   };
 
