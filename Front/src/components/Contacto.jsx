@@ -8,7 +8,7 @@ function Contacto() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_c6mrytj', 'template_4p809k9', form.current, '_ePqjP4LpMNBAp7BQ')
+        emailjs.sendForm('service_l6ty8ji', 'template_1z6hlit', form.current, 'VpPYtLe-wRA6N2mC6') 
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -27,7 +27,7 @@ function Contacto() {
                 <div className="correo">
                     <i className="icono fa-solid fa-envelope fa-2xl" style={{ color: "#000000" }}></i>
                     <h3>EMAIL</h3>
-                    <p>magyprint7@gmail.com</p>
+                    <p>contacto@magyprint.cl</p>
                 </div>
                 <div className="fono">
                     <i className="icono fa-brands fa-whatsapp fa-2xl" style={{ color: "#000000" }}></i>
@@ -100,7 +100,7 @@ function Contacto() {
                     <div className="horario">
                         <i className="icono fa-solid fa-clock fa-2xl relojicon" style={{ color: "#000000" }}></i>
                         <h3>HORARIO DE ATENCIÓN</h3>
-                        <p>Lunes a Viernes 9:00 AM a 18:00 PM <br /> Sábados y Domingos Cerrado</p>
+                        <p>Lunes a Viernes 10:00 AM a 19:00 hrs <br /> Sábados 10:00 a 14:00 hrs</p>
                     </div>
                     <div className="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.9664994392924!2d-70.7534189234061!3d-33.398038194831564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c16d39b5066d%3A0xc983b693fca7d344!2sAv.%20Brasil%207948%2C%208661078%20Renca%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1692297131932!5m2!1ses-419!2scl" width="100%" height="550" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                 </div>

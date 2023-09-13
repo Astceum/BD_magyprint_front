@@ -15,7 +15,7 @@ function Empresa() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_c6mrytj', 'template_4p809k9', form.current, '_ePqjP4LpMNBAp7BQ')
+        emailjs.sendForm('service_l6ty8ji', 'template_1z6hlit', form.current, 'VpPYtLe-wRA6N2mC6')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
